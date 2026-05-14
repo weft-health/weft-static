@@ -1,5 +1,153 @@
 <!DOCTYPE html>
-<html>
-<head><title>Weft</title></head>
-<body><h1>Hello</h1></body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weft — Documentation woven for EFT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sage: #5A7A6A;
+      --parchment: #F0E8D8;
+      --rust: #C9885F;
+      --moss: #3A4A42;
+      --lichen: #7A8A82;
+      --bg: #FBF8F1;
+      --border: #E5DCC8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--moss);
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      line-height: 1.65;
+    }
+    .logo {
+      display: block;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-weight: 500;
+      font-size: 2.5rem;
+      margin: 0 0 0.25rem;
+      letter-spacing: -0.01em;
+    }
+    .tagline {
+      color: var(--lichen);
+      font-style: italic;
+      margin-top: 0;
+      margin-bottom: 3rem;
+    }
+    section { margin-bottom: 2.5rem; }
+    h2 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--sage);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    p { margin: 0 0 1rem; }
+    a { color: var(--sage); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--rust); }
+    .cta {
+      display: inline-block;
+      background: var(--sage);
+      color: var(--parchment);
+      padding: 0.85rem 1.75rem;
+      border-radius: 4px;
+      margin-top: 0.5rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .cta:hover { background: var(--moss); color: var(--parchment); }
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--lichen);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo: replace this SVG with your actual weft-lockup-horizontal.svg -->
+  <svg class="logo" width="64" height="64" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+    <rect width="240" height="240" rx="32" fill="#5A7A6A"/>
+    <g>
+      <rect x="80" y="0" width="22" height="240" fill="#F0E8D8"/>
+      <rect x="138" y="0" width="22" height="240" fill="#F0E8D8"/>
+      <rect x="0" y="48" width="80" height="22" fill="#C9885F"/>
+      <rect x="102" y="48" width="36" height="22" fill="#C9885F"/>
+      <rect x="160" y="48" width="80" height="22" fill="#C9885F"/>
+      <rect x="138" y="48" width="22" height="22" fill="#5A7A6A" opacity="0.25"/>
+      <rect x="0" y="110" width="80" height="22" fill="#F0E8D8"/>
+      <rect x="102" y="110" width="36" height="22" fill="#F0E8D8"/>
+      <rect x="160" y="110" width="80" height="22" fill="#F0E8D8"/>
+      <rect x="80" y="110" width="22" height="22" fill="#5A7A6A" opacity="0.25"/>
+      <rect x="0" y="172" width="80" height="22" fill="#C9885F"/>
+      <rect x="102" y="172" width="36" height="22" fill="#C9885F"/>
+      <rect x="160" y="172" width="80" height="22" fill="#C9885F"/>
+      <rect x="138" y="172" width="22" height="22" fill="#5A7A6A" opacity="0.25"/>
+    </g>
+  </svg>
+
+  <h1>Weft</h1>
+  <p class="tagline">Documentation woven for EFT.</p>
+
+  <section>
+    <h2>The Problem</h2>
+    <p>
+      Generalist AI scribes capture words but miss the work. They don't
+      recognize attachment cycles, can't distinguish primary from secondary
+      emotion, and have no concept of Tango moves or stage progression.
+      Notes come back generic — and you end up rewriting them.
+    </p>
+  </section>
+
+  <section>
+    <h2>The Approach</h2>
+    <p>
+      Weft is being built specifically for ICEEFT-certified and EFT-trained
+      couples clinicians. The thread metaphor isn't decorative: documentation
+      should reflect how the model actually moves — cycles, primary emotion
+      underneath secondary, the progression through stages.
+    </p>
+    <p>
+      Built by someone with both clinical and engineering backgrounds, with
+      the model trained on the framework you actually use.
+    </p>
+  </section>
+
+  <section>
+    <h2>We're Listening First</h2>
+    <p>
+      Before building further, we're conducting workflow interviews with
+      practicing EFT clinicians. Thirty minutes, video call, no pitch —
+      just questions about how you currently document and where it breaks
+      down.
+    </p>
+    <p>
+      Participants get early access and shape what gets built.
+    </p>
+    <a href="mailto:you@example.com?subject=Weft%20interview" class="cta">
+      Get in touch
+    </a>
+  </section>
+
+  <footer>
+    Weft · A research project · 2026
+  </footer>
+</body>
 </html>
